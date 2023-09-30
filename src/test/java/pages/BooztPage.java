@@ -21,5 +21,17 @@ public class BooztPage {
         acceptCookiesButton.click();
 
     }
+    //Creating Account Method
+   @FindBy(xpath = "(//div[@class='icon icon--size-small palette-button__icon'])[2]")
+   private WebElement profilIkonButton;
+
+    @FindBy(xpath = "//*[text()='Create account']")
+    private WebElement createAccountButton;
+
+    public void clickCreateAccountButton(){
+    profilIkonButton.click();
+    createAccountButton.click();
+
+    }
 
 }
