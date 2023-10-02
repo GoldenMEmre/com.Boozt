@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b640c321-485d-4768-b6dd-d798d70ba20d" name="Changes" comment="">
+    <list default="true" id="b640c321-485d-4768-b6dd-d798d70ba20d" name="Changes" comment="&quot;01/10/23 muleyke4&quot;">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +53,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/IdeaProjects/com.Booztt&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hasba/IdeaProjects/com.Boozt/src/test/java&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;
   }
 }</component>
@@ -57,7 +63,7 @@
       <recent name="C:\Users\hasba\IdeaProjects\com.Boozt" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_001_TC_001.Test01">
+  <component name="RunManager">
     <configuration name="US_001_TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Boozt" />
       <extension name="coverage">
@@ -75,27 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_001_TC_001.Test01" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG__" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_001_TC_001" />
-      <option name="METHOD_NAME" value="Test01" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_001_TC_001.Test01" />
         <item itemvalue="TestNG.US_001_TC_001" />
       </list>
     </recent_temporary>
@@ -110,5 +97,9 @@
       <updated>1696012146050</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;01/10/23 muleyke4&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;01/10/23 muleyke4&quot;" />
   </component>
 </project>
