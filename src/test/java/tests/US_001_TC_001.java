@@ -20,6 +20,7 @@ public class US_001_TC_001 {
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         booztPage.cookiesAccept();
+        Driver.quitDriver();
 
     }
 
