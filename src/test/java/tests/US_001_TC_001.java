@@ -15,15 +15,16 @@ public class US_001_TC_001 {
     //Tarayıcıyı aç ve "https://www.boozt.com/" adresine git.
 
     @Test
-    public void Test01(){
+    public void WebPageAccessTest(){
 
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         booztPage.cookiesAccept();
-        Driver.quitDriver();
+        Driver.closeDriver();
+    }
 
     }
 
 
 
-}
+
