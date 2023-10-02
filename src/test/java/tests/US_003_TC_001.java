@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.BooztPage;
 import utilities.ConfigReader;
@@ -15,9 +16,14 @@ public class US_003_TC_001 {
     @Test
     public void createAccountTest(){
 
+        String myBooztText = "My Boozt";
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         booztPage.cookiesAccept();
         booztPage.clickCreateAccountButton();
+        booztPage.createAnAccount();
+        Assert.assertEquals(myBooztText,booztPage.myAccountMyBooztText.getText());
+        Driver.closeDriver();
+
     }
 
 
