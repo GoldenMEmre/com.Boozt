@@ -1,6 +1,5 @@
 package tests;
 
-
 import org.testng.annotations.Test;
 import pages.BooztPage;
 import utilities.ConfigReader;
@@ -14,16 +13,14 @@ public class US_001_TC_001 {
 
     //Tarayıcıyı aç ve "https://www.boozt.com/" adresine git.
 
+    @Test (groups = "smoke")
+    public void WebPageAccessTest(){
+
     @Test
     public void Test01(){
-
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         booztPage.cookiesAccept();
         Driver.quitDriver();
-
     }
-
-
-
 }
