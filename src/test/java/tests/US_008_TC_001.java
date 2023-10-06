@@ -6,7 +6,6 @@ import org.testng.annotations.Test;
 import pages.BooztPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-import utilities.ReusableMethods;
 
 public class US_008_TC_001 {
     //As a user, I should be able to add an item as a favorite.

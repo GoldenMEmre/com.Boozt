@@ -7,20 +7,25 @@ import utilities.Driver;
 
 public class US_001_TC_001 {
 
-    BooztPage booztPage= new BooztPage();
+    BooztPage booztPage = new BooztPage();
 
     //As a user, I should be able to verify that I can access the website.
 
     //Tarayıcıyı aç ve "https://www.boozt.com/" adresine git.
 
-    @Test (groups = "smoke")
-    public void WebPageAccessTest(){
-
-    @Test
-    public void Test01(){
+    @Test(groups = "smoke")
+    public void WebPageAccessTest() {
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         booztPage.cookiesAccept();
-        Driver.quitDriver();
+        Driver.closeDriver();
     }
 }
+
+
+
+
+
+
+
+

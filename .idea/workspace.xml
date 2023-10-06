@@ -26,15 +26,19 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_010_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_010_TC_001.java" afterDir="false" />
 
     <list default="true" id="b640c321-485d-4768-b6dd-d798d70ba20d" name="Changes" comment="&quot;01/10/23 muleyke4&quot;">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_008_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_008_TC_001.java" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" afterDir="false" />
 
+>>>>>>> main
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +53,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -64,6 +73,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="17" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2W5AcR1Fg1PYE541qNwYo2YLOOY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -75,8 +87,16 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+<<<<<<< HEAD
+    "last_opened_file_path": "C:/Users/hasba/IdeaProjects/com.Boozt/src/test/java",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+=======
     "last_opened_file_path": "C:/Users/hasba/IdeaProjects/team113_winter2023",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+>>>>>>> main
   }
 }]]></component>
   <component name="RecentsManager">
@@ -85,8 +105,13 @@
       <recent name="C:\Users\hasba\IdeaProjects\com.Boozt" />
     </key>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager" selected="TestNG.US_008_TC_001.searchBoxTest">
+    <configuration name="US_001_TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
+=======
   <component name="RunManager" selected="TestNG.US_010_TC_001.loginTest">
     <configuration name="US_004_TC_001.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> main
       <module name="com.Boozt" />
       <extension name="coverage">
         <pattern>
@@ -121,8 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="US_008_TC_001.searchBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG__" />
+=======
     <configuration name="US_007_TC_001.searchBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Boozt" />
+>>>>>>> main
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -130,7 +160,11 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
+<<<<<<< HEAD
+      <option name="MAIN_CLASS_NAME" value="tests.US_008_TC_001" />
+=======
       <option name="MAIN_CLASS_NAME" value="tests.US_007_TC_001" />
+>>>>>>> main
       <option name="METHOD_NAME" value="searchBoxTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -139,6 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.US_008_TC_001.searchBoxTest" />
+        <item itemvalue="TestNG.US_001_TC_001" />
+=======
     <configuration name="US_008_TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Boozt" />
       <extension name="coverage">
@@ -181,6 +221,7 @@
         <item itemvalue="TestNG.US_007_TC_001.searchBoxTest" />
         <item itemvalue="TestNG.US_005_TC_001" />
         <item itemvalue="TestNG.US_004_TC_001.loginTest" />
+>>>>>>> main
       </list>
     </recent_temporary>
   </component>
@@ -193,12 +234,22 @@
       <option name="presentableId" value="Default" />
       <updated>1696012146050</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00001" summary="&quot;01/10/23 muleyke4&quot;">
+      <option name="closed" value="true" />
+      <created>1696230175209</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696230175209</updated>
+=======
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml">
       <created>1696109406245</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1696109406245</updated>
+>>>>>>> main
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />

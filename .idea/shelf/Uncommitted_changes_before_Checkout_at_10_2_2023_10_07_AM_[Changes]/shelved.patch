@@ -1,0 +1,337 @@
+Index: src/test/java/tests/US_004_TC_001.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tests;\r\n\r\npublic class US_004_TC_001 {\r\n    //As a user, I should be able to login with valid credentials.\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/tests/US_004_TC_001.java b/src/test/java/tests/US_004_TC_001.java
+--- a/src/test/java/tests/US_004_TC_001.java	(revision 9661419b338344056d904a6b01374a0700a5fb0e)
++++ b/src/test/java/tests/US_004_TC_001.java	(date 1696229481740)
+@@ -1,5 +1,21 @@
+ package tests;
+ 
++import org.testng.annotations.Test;
++import pages.BooztPage;
++import utilities.ConfigReader;
++import utilities.Driver;
++
+ public class US_004_TC_001 {
++    BooztPage booztPage = new BooztPage();
++
++
+     //As a user, I should be able to login with valid credentials.
+-}
++
++    @Test
++    public void headerVisibilityandEnableTest() {
++        Driver.getDriver().get(ConfigReader.getProperty("url"));
++        booztPage.cookiesAccept();
++        booztPage.userLogin();
++        Driver.closeDriver();
++    }
++}
+\ No newline at end of file
+Index: src/test/java/tests/US_001_TC_001.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tests;\r\n\r\n\r\nimport org.testng.annotations.Test;\r\nimport pages.BooztPage;\r\nimport utilities.ConfigReader;\r\nimport utilities.Driver;\r\n\r\npublic class US_001_TC_001 {\r\n\r\n    BooztPage booztPage= new BooztPage();\r\n\r\n    //As a user, I should be able to verify that I can access the website.\r\n\r\n    //Tarayıcıyı aç ve \"https://www.boozt.com/\" adresine git.\r\n\r\n    @Test\r\n    public void Test01(){\r\n\r\n\r\n        Driver.getDriver().get(ConfigReader.getProperty(\"url\"));\r\n        booztPage.cookiesAccept();\r\n\r\n    }\r\n\r\n\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/tests/US_001_TC_001.java b/src/test/java/tests/US_001_TC_001.java
+--- a/src/test/java/tests/US_001_TC_001.java	(revision 9661419b338344056d904a6b01374a0700a5fb0e)
++++ b/src/test/java/tests/US_001_TC_001.java	(date 1696229481736)
+@@ -15,14 +15,16 @@
+     //Tarayıcıyı aç ve "https://www.boozt.com/" adresine git.
+ 
+     @Test
+-    public void Test01(){
++    public void WebPageAccessTest(){
+ 
+ 
+         Driver.getDriver().get(ConfigReader.getProperty("url"));
+         booztPage.cookiesAccept();
++        Driver.closeDriver();
++    }
+ 
+     }
+ 
+ 
+ 
+-}
++
+Index: src/test/java/tests/US_002_TC_001.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tests;\r\n\r\npublic class US_002_TC_001 {\r\n\r\n    //As a user, I should be able to verify that the menus in the header section of the Home page are visible and active.\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/tests/US_002_TC_001.java b/src/test/java/tests/US_002_TC_001.java
+--- a/src/test/java/tests/US_002_TC_001.java	(revision 9661419b338344056d904a6b01374a0700a5fb0e)
++++ b/src/test/java/tests/US_002_TC_001.java	(date 1696229481737)
+@@ -1,6 +1,24 @@
+ package tests;
+ 
++import org.testng.annotations.Test;
++import pages.BooztPage;
++import utilities.ConfigReader;
++import utilities.Driver;
++import utilities.ReusableMethods;
++
+ public class US_002_TC_001 {
+ 
+-    //As a user, I should be able to verify that the menus in the header section of the Home page are visible and active.
++    BooztPage booztPage = new BooztPage();
++
++    //As a user, I should be able to verify that the menus in the header section of the Home page
++    // are visible and active.
++
++    @Test
++    public void headerVisibilityandEnableTest(){
++        Driver.getDriver().get(ConfigReader.getProperty("url"));
++        booztPage.cookiesAccept();
++        booztPage.headerSectionVisibilityandEnableTest();
++        Driver.closeDriver();
++
++    }
+ }
+Index: src/test/java/tests/US_003_TC_001.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package tests;\r\n\r\npublic class US_003_TC_001 {\r\n\r\n    //As a user, I should be able to verify that when I fill up the necessary\r\n    // information on the create account page, I should be able to create an account.\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/tests/US_003_TC_001.java b/src/test/java/tests/US_003_TC_001.java
+--- a/src/test/java/tests/US_003_TC_001.java	(revision 9661419b338344056d904a6b01374a0700a5fb0e)
++++ b/src/test/java/tests/US_003_TC_001.java	(date 1696229481738)
+@@ -1,7 +1,32 @@
+ package tests;
+ 
++import org.testng.Assert;
++import org.testng.annotations.Test;
++import pages.BooztPage;
++import utilities.ConfigReader;
++import utilities.Driver;
++
+ public class US_003_TC_001 {
+ 
+-    //As a user, I should be able to verify that when I fill up the necessary
+-    // information on the create account page, I should be able to create an account.
++    BooztPage booztPage=new BooztPage();
++
++    //As a user, I should be able to verify that when I fill up the necessary information on the create account page,
++    // I should be able to create an account.
++
++    @Test
++    public void createAccountTest(){
++
++        String myBooztText = "My Boozt";
++        Driver.getDriver().get(ConfigReader.getProperty("url"));
++        booztPage.cookiesAccept();
++        booztPage.clickCreateAccountButton();
++        booztPage.createAnAccount();
++        Assert.assertEquals(myBooztText,booztPage.myAccountMyBooztText.getText());
++        Driver.closeDriver();
++
++    }
++
++
+ }
++
++
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>target/\r\n!.mvn/wrapper/maven-wrapper.jar\r\n!**/src/main/**/target/\r\n!**/src/test/**/target/\r\n\r\n### IntelliJ IDEA ###\r\n.idea/modules.xml\r\n.idea/jarRepositories.xml\r\n.idea/compiler.xml\r\n.idea/libraries/\r\n*.iws\r\n*.iml\r\n*.ipr\r\n\r\n### Eclipse ###\r\n.apt_generated\r\n.classpath\r\n.factorypath\r\n.project\r\n.settings\r\n.springBeans\r\n.sts4-cache\r\n\r\n### NetBeans ###\r\n/nbproject/private/\r\n/nbbuild/\r\n/dist/\r\n/nbdist/\r\n/.nb-gradle/\r\nbuild/\r\n!**/src/main/**/build/\r\n!**/src/test/**/build/\r\n\r\n### VS Code ###\r\n.vscode/\r\n\r\n### Mac OS ###\r\n.DS_Store\r\n\r\n\r\n\r\n.idea/workspace.xml\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 9661419b338344056d904a6b01374a0700a5fb0e)
++++ b/.gitignore	(date 1696229738381)
+@@ -36,7 +36,6 @@
+ 
+ ### Mac OS ###
+ .DS_Store
++.idea/misc.xml
+ 
+ 
+-
+-.idea/workspace.xml
+Index: src/test/java/pages/BooztPage.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package pages;\r\n\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.support.FindBy;\r\nimport org.openqa.selenium.support.PageFactory;\r\nimport utilities.Driver;\r\n\r\npublic class BooztPage {\r\n\r\n    public BooztPage(){\r\n\r\n        PageFactory.initElements(Driver.getDriver(),this);\r\n    }\r\n\r\n    //Cookies Accept Method\r\n    @FindBy(id = \"onetrust-accept-btn-handler\")\r\n    private WebElement acceptCookiesButton;\r\n\r\n\r\n    public void cookiesAccept() {\r\n        acceptCookiesButton.click();\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/pages/BooztPage.java b/src/test/java/pages/BooztPage.java
+--- a/src/test/java/pages/BooztPage.java	(revision 9661419b338344056d904a6b01374a0700a5fb0e)
++++ b/src/test/java/pages/BooztPage.java	(date 1696229481735)
+@@ -1,12 +1,23 @@
+ package pages;
+ 
++import com.github.javafaker.Faker;
++import org.openqa.selenium.Keys;
+ import org.openqa.selenium.WebElement;
++import org.openqa.selenium.interactions.Actions;
+ import org.openqa.selenium.support.FindBy;
+ import org.openqa.selenium.support.PageFactory;
++import org.testng.Assert;
++import org.testng.asserts.SoftAssert;
+ import utilities.Driver;
++import utilities.ReusableMethods;
++
++import static org.testng.Assert.assertTrue;
+ 
+ public class BooztPage {
+ 
++    String password;
++    String email;
++
+     public BooztPage(){
+ 
+         PageFactory.initElements(Driver.getDriver(),this);
+@@ -21,5 +32,139 @@
+         acceptCookiesButton.click();
+ 
+     }
++    //Creating Account Method
++   @FindBy(xpath = "(//div[@class='icon icon--size-small palette-button__icon'])[2]")
++   private WebElement profilIkonButton;
++
++    @FindBy(xpath = "//*[text()='Create account']")
++    private WebElement createAccountButton;
++
++    public void clickCreateAccountButton(){
++    profilIkonButton.click();
++    createAccountButton.click();
++
++    }
++    //Header Section Method
++
++    @FindBy(xpath = "//a[@href='/eu/en/women']")
++    private WebElement homePageWomenLink;
++
++    @FindBy(xpath = "//a[@href='/eu/en/menswear']")
++    private WebElement homePageMenLink;
++
++    @FindBy(xpath = "//a[@href='/eu/en/kids']")
++    private WebElement homePageKidsLink;
++
++    @FindBy(xpath = "(//*[text()='Sport'])[1]")
++    private WebElement homePageSportLink;
++
++    @FindBy(xpath = "//a[@href='/eu/en/homeware']")
++    private WebElement homePageHomewareLink;
++
++    @FindBy(className = "header-logo__svg")
++    private WebElement homePageLink;
++
++    @FindBy(xpath = "(//div[@class='icon icon--size-small palette-button__icon'])[3]")
++    private WebElement clubIconButton;
++
++    @FindBy(xpath = "(//div[@class='icon icon--size-small palette-button__icon'])[4]")
++    private WebElement favoriteIconButton;
++
++    @FindBy(xpath = "(//div[@class='icon icon--size-small palette-button__icon'])[5]")
++    private WebElement cartButton;
++
++    public void headerSectionVisibilityandEnableTest(){
++
++        SoftAssert softAssert= new SoftAssert();
++
++        softAssert.assertTrue(homePageWomenLink.isDisplayed());
++        softAssert.assertTrue(homePageMenLink.isDisplayed());
++        softAssert.assertTrue(homePageKidsLink.isDisplayed());
++        softAssert.assertTrue(homePageSportLink.isDisplayed());
++        softAssert.assertTrue(homePageHomewareLink.isDisplayed());
++        softAssert.assertTrue(homePageLink.isDisplayed());
++        softAssert.assertTrue(profilIkonButton.isDisplayed());
++        softAssert.assertTrue(clubIconButton.isDisplayed());
++        softAssert.assertTrue(favoriteIconButton.isDisplayed());
++        softAssert.assertTrue(cartButton.isDisplayed());
++
++        softAssert.assertTrue(homePageWomenLink.isEnabled());
++        softAssert.assertTrue(homePageMenLink.isEnabled());
++        softAssert.assertTrue(homePageKidsLink.isEnabled());
++        softAssert.assertTrue(homePageSportLink.isEnabled());
++        softAssert.assertTrue(homePageHomewareLink.isEnabled());
++        softAssert.assertTrue(homePageLink.isEnabled());
++        softAssert.assertTrue(profilIkonButton.isEnabled());
++        softAssert.assertTrue(clubIconButton.isEnabled());
++        softAssert.assertTrue(favoriteIconButton.isEnabled());
++        softAssert.assertTrue(cartButton.isEnabled());
++
++        softAssert.assertAll();
++    }
++    //Creating Account Method(Cont.)
++
++    @FindBy(xpath = "(//input[@class='skip-generic-styling'])[2]")
++    private WebElement creatingAccountFirstNameBox;
++
++    @FindBy(xpath = "(//span[@class='palette-button__label'])[1]")
++    private WebElement createAccountPageCreateAccountButton;
++
++    @FindBy(xpath = "//h1[@class='dashboard-title__headline']")
++    public WebElement myAccountMyBooztText;
++
++    public void createAnAccount(){
++//Please make sure the password contains upper cases,
++// lower cases, numbers and is at least 6 characters long
++        Faker faker = new Faker();
++        Actions actions = new Actions(Driver.getDriver());
++        password = "12345Aa";
++        email = faker.internet().emailAddress();
++
++        actions.click(creatingAccountFirstNameBox)
++                .sendKeys(faker.name().firstName())
++                .sendKeys(Keys.TAB)
++                .sendKeys(faker.name().lastName())
++                .sendKeys(Keys.TAB)
++                .sendKeys(email)
++                .sendKeys(Keys.TAB)
++                .sendKeys(password)
++                .sendKeys(Keys.TAB)
++                .sendKeys(password)
++                .perform();
++
++        actions.scrollToElement(createAccountPageCreateAccountButton).perform();
++        createAccountPageCreateAccountButton.click();
++        ReusableMethods.bekle(5);
++    }
++    @FindBy (xpath = "(//input[@class='skip-generic-styling'])[2]")
++    public WebElement loginEmailBox;
++
++    @FindBy (xpath = "(//input[@class='skip-generic-styling'])[3]")
++    public WebElement loginPasswordBox;
++
++    @FindBy(xpath = "(//span[@class='palette-button__label'])[1]")
++    public WebElement loginPageLoginButton;
++
++    @FindBy(xpath = "(//img[@draggable='true'])[1]")
++    public WebElement selectedPopup;
++
++    @FindBy(xpath = "(//img[@draggable='true'])[2]")
++    public WebElement dontMissPopup;
++
++
++        public void userLogin(){
++            profilIkonButton.click();
++            ReusableMethods.bekle(7);
++            dontMissPopup.click();
++            selectedPopup.click();
++            loginEmailBox.sendKeys(email);
++            loginPasswordBox.sendKeys(password);
++            loginPageLoginButton.click();
++            ReusableMethods.bekle(3);
++
++
++
++    }
++
+ 
+ }

@@ -20,7 +20,4 @@ public class US_004_TC_002 {
         Assert.assertTrue(booztPage.notLoginErrorMessage.getText().contains(errorMessage));
         Driver.closeDriver();
     }
-
-
-
 }

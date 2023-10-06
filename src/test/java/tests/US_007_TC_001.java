@@ -27,11 +27,5 @@ public class US_007_TC_001 {
 
         //Select select = new Select(booztPage.searchPageSortBy);
         //select.selectByVisibleText("Price low-high");
-
-
-
-
-
-
     }
 }
