@@ -167,4 +167,22 @@ public class BooztPage {
     }
 
 
+
+    @FindBy (xpath = "//input[@class=\'skip-generic-styling\']")
+    private WebElement searchBox;
+    public void userProductSearch(){
+        searchBox.sendKeys("candle");
+        searchBox.sendKeys(Keys.ENTER);
+    }
+
+    @FindBy(xpath = "(//div[@data-navigation-id='80660'])[1]")
+    public WebElement candlesSearchPageFirstProduct;
+
+    @FindBy(xpath = "(//span[@class='palette-button__label'])[5]")
+    public WebElement candlesSearchPageFirstProductAddToSaveAsFavoriteButton;
+
+    @FindBy(xpath = "//div[@class='icon icon--color-red-700 icon--size-small icon--stroke-width-regular palette-button__icon']")
+    public WebElement candlesSearchPageFirstProductAddFavoriteRedHeart;
+
+
 }
