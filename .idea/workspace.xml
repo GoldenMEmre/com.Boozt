@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="798ff9d7-4790-485c-b27a-1e92947298b8" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -23,6 +24,17 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_008_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_008_TC_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_009_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_009_TC_001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_010_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_010_TC_001.java" afterDir="false" />
+
+    <list default="true" id="b640c321-485d-4768-b6dd-d798d70ba20d" name="Changes" comment="&quot;01/10/23 muleyke4&quot;">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +204,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+
     <MESSAGE value="01/10/23emreV.3" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml" />
@@ -215,5 +228,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+
+    <MESSAGE value="&quot;01/10/23 muleyke4&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;01/10/23 muleyke4&quot;" />
+
   </component>
 </project>

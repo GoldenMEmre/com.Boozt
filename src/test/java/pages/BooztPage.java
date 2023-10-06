@@ -1,18 +1,14 @@
 package pages;
 
-import com.github.javafaker.Faker;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
-import utilities.Driver;
-import utilities.ReusableMethods;
 
-import static org.testng.Assert.assertTrue;
+import utilities.Driver;
 
 public class BooztPage {
 
@@ -24,16 +20,14 @@ public class BooztPage {
 
         PageFactory.initElements(Driver.getDriver(),this);
     }
-
     //Cookies Accept Method
     @FindBy(id = "onetrust-accept-btn-handler")
     private WebElement acceptCookiesButton;
 
-
     public void cookiesAccept() {
         acceptCookiesButton.click();
-
     }
+
     //Creating Account Method
    @FindBy(xpath = "(//div[@class='icon icon--size-small icon--stroke-width-regular palette-button__icon'])[2]")
    private WebElement profilIkonButton;
@@ -154,7 +148,6 @@ public class BooztPage {
 
     @FindBy(xpath = "//div[@data-id='Element564']")
     public WebElement dontMissPopup;
-
 
         public void userLogin(){
 
@@ -284,7 +277,6 @@ public class BooztPage {
         candlesSearchPageFirstProductAddToSaveAsFavoriteButton.click();
         ReusableMethods.bekle(5);
     }
-
 
     @FindBy(xpath = "(//span[text()='Checkout'])[2]")
     public WebElement searchPageFourthItemCheckoutButton;

@@ -16,15 +16,11 @@ public class US_001_TC_001 {
     @Test (groups = "smoke")
     public void WebPageAccessTest(){
 
+    @Test
+    public void Test01(){
 
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         booztPage.cookiesAccept();
-        Driver.closeDriver();
+        Driver.quitDriver();
     }
-
-
-    }
-
-
-
-
+}

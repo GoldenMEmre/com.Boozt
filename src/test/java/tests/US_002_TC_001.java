@@ -5,7 +5,6 @@ import pages.BooztPage;
 import utilities.ConfigReader;
 import utilities.Driver;
 
-
 public class US_002_TC_001 {
 
     BooztPage booztPage = new BooztPage();
@@ -19,6 +18,8 @@ public class US_002_TC_001 {
         booztPage.cookiesAccept();
         booztPage.headerSectionVisibilityandEnableTest();
         Driver.closeDriver();
-
     }
+public class US_002_TC_001 {
+
+    //As a user, I should be able to verify that the menus in the header section of the Home page are visible and active.
 }
