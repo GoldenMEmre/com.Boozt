@@ -1,6 +1,7 @@
 package pages;
 
 import com.github.javafaker.Faker;
+import executor.JavaScriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -8,6 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.asserts.SoftAssert;
+import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
@@ -218,6 +220,7 @@ public class BooztPage {
         ReusableMethods.bekle(5);
         candlesPageFourthItem.click();
         ReusableMethods.bekle(3);
+        //JavaScriptExecutor jse= new JavaScriptExecutor(,Driver.getDriver(ConfigReader.getProperty("url")));
         //booztPage.dontMissPopup.click();
         //booztPage.selectedStylePopup.click();
         actions.scrollToElement(candlesPageFourthItemAddToCartButton);

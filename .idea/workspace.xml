@@ -4,41 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="798ff9d7-4790-485c-b27a-1e92947298b8" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml">
+    <list default="true" id="89e00c24-b659-4de7-9575-4ee7c16d4c48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/N11page.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/N11_Test01.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/JavaLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/JavaLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_002.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_002.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_005_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_005_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_006_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_006_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_007_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_007_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_008_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_008_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_009_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_009_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_010_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_010_TC_001.java" afterDir="false" />
-
-    <list default="true" id="b640c321-485d-4768-b6dd-d798d70ba20d" name="Changes" comment="&quot;01/10/23 muleyke4&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_008_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_008_TC_001.java" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_003_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_004_TC_001.java" afterDir="false" />
-
->>>>>>> main
+      <change beforePath="$PROJECT_DIR$/xmlFiles/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xmlFiles/log4j.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +47,7 @@
     <option name="jreName" value="17" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2W5AcR1Fg1PYE541qNwYo2YLOOY" />
   <component name="ProjectLevelVcsManager">
@@ -83,54 +56,32 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-<<<<<<< HEAD
-    "last_opened_file_path": "C:/Users/hasba/IdeaProjects/com.Boozt/src/test/java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
-=======
-    "last_opened_file_path": "C:/Users/hasba/IdeaProjects/team113_winter2023",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
->>>>>>> main
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hasba\IdeaProjects\com.Boozt\src\test\java" />
       <recent name="C:\Users\hasba\IdeaProjects\com.Boozt" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="TestNG.US_008_TC_001.searchBoxTest">
-    <configuration name="US_001_TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
-=======
-  <component name="RunManager" selected="TestNG.US_010_TC_001.loginTest">
-    <configuration name="US_004_TC_001.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
->>>>>>> main
-      <module name="com.Boozt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_004_TC_001" />
-      <option name="METHOD_NAME" value="loginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+  <component name="RunManager" selected="TestNG.US_001_TC_001">
+    <configuration name="C:/Users/pc/IdeaProjects/com.Booztt/xmlFiles/smokeTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG__" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/xmlFiles/smokeTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_005_TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Boozt" />
+    <configuration name="US_001_TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG__" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
@@ -138,7 +89,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_005_TC_001" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_001_TC_001" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -146,39 +97,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="US_008_TC_001.searchBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG__" />
-=======
-    <configuration name="US_007_TC_001.searchBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Boozt" />
->>>>>>> main
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-<<<<<<< HEAD
-      <option name="MAIN_CLASS_NAME" value="tests.US_008_TC_001" />
-=======
-      <option name="MAIN_CLASS_NAME" value="tests.US_007_TC_001" />
->>>>>>> main
-      <option name="METHOD_NAME" value="searchBoxTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.US_008_TC_001.searchBoxTest" />
-        <item itemvalue="TestNG.US_001_TC_001" />
-=======
     <configuration name="US_008_TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Boozt" />
       <extension name="coverage">
@@ -189,6 +107,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.US_008_TC_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_008_TC_001.searchBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -216,46 +142,31 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_010_TC_001.loginTest" />
-        <item itemvalue="TestNG.US_008_TC_001" />
-        <item itemvalue="TestNG.US_007_TC_001.searchBoxTest" />
-        <item itemvalue="TestNG.US_005_TC_001" />
-        <item itemvalue="TestNG.US_004_TC_001.loginTest" />
->>>>>>> main
+        <item itemvalue="TestNG.US_001_TC_001" />
+        <item itemvalue="TestNG.C:/Users/pc/IdeaProjects/com.Booztt/xmlFiles/smokeTest.xml" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="798ff9d7-4790-485c-b27a-1e92947298b8" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml" />
+      <changelist id="89e00c24-b659-4de7-9575-4ee7c16d4c48" name="Changes" comment="" />
       <created>1696012146050</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696012146050</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00001" summary="&quot;01/10/23 muleyke4&quot;">
-      <option name="closed" value="true" />
-      <created>1696230175209</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1696230175209</updated>
-=======
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml">
       <created>1696109406245</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1696109406245</updated>
->>>>>>> main
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-
     <MESSAGE value="01/10/23emreV.3" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml" />
@@ -271,7 +182,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/tests/US_010_TC_001.java</url>
           <line>22</line>
-          <properties class="tests.US_010_TC_001" method="loginTest">
+          <properties class="tests.US_010_TC_001">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -279,9 +190,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-
-    <MESSAGE value="&quot;01/10/23 muleyke4&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;01/10/23 muleyke4&quot;" />
-
   </component>
 </project>
