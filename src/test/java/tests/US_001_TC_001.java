@@ -1,15 +1,18 @@
 package tests;
 
+import logger.Log;
 import org.testng.annotations.Test;
 import pages.BooztPage;
-import pages.JavaLog;
+
+
+
 import utilities.ConfigReader;
 import utilities.Driver;
 
 public class US_001_TC_001 {
 
     BooztPage booztPage = new BooztPage();
-    JavaLog javaLog=new JavaLog();
+    Log log = new Log();
 
 
     //As a user, I should be able to verify that I can access the website.
@@ -18,13 +21,20 @@ public class US_001_TC_001 {
 
     @Test(groups = "smoke")
     public void WebPageAccessTest() {
-
+        log.info("N11 UI Testi basladi");
         Driver.getDriver().get(ConfigReader.getProperty("url"));
-        javaLog.logger.info("Url e gider");
+
+
         booztPage.cookiesAccept();
+        log.error("Cookies kabul edilemedi");
+
         Driver.closeDriver();
     }
-}
+
+    }
+
+
+
 
 
 

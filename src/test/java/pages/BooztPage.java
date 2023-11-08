@@ -1,6 +1,7 @@
 package pages;
 
 import com.github.javafaker.Faker;
+
 import executor.JavaScriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,10 @@ import org.testng.asserts.SoftAssert;
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BooztPage {
     String password;
@@ -27,10 +32,10 @@ public class BooztPage {
     //Cookies Accept Method
     @FindBy(id = "onetrust-accept-btn-handler")
     private WebElement acceptCookiesButton;
+
     public void cookiesAccept() {
         acceptCookiesButton.click();
     }
-
 
     //Creating Account Method
     @FindBy(xpath = "(//div[@class='icon icon--size-small icon--stroke-width-regular palette-button__icon'])[2]")
@@ -40,8 +45,10 @@ public class BooztPage {
     private WebElement createAccountButton;
 
     public void clickCreateAccountButton(){
-        profilIkonButton.click();
-        createAccountButton.click();
+
+    profilIkonButton.click();
+    createAccountButton.click();
+
     }
 
     //Header Section Method
@@ -153,7 +160,7 @@ public class BooztPage {
     @FindBy(xpath = "//div[@data-id='Element564']")
     public WebElement dontMissPopup;
 
-    public void userLogin(){
+        public void userLogin(){
 
         email="muleyke.cevik@gmail.com";
         password="12345mM";
@@ -172,7 +179,6 @@ public class BooztPage {
         loginPageLoginButton.click();
         ReusableMethods.bekle(3);
     }
-
     @FindBy (xpath = "//label[@class='text text--error']")
     public WebElement notLoginErrorMessage;
 
@@ -213,11 +219,20 @@ public class BooztPage {
     @FindBy(xpath = "//div[@class='add-to-cart-feedback-slide-panel__header']")
     public WebElement itemAddedToCartText;
 
+    @FindBy(xpath = "//div[@data-id='Element157']")
+    public WebElement dontMissOutPopup;
+
     public void clickProduct(){
 
+        WebDriver driver = Driver.getDriver();
+
         Actions actions = new Actions(Driver.getDriver());
-        actions.scrollToElement(candlesPageFourthItem);
+        //actions.scrollToElement(candlesPageFourthItem);
         ReusableMethods.bekle(5);
+        JavaScriptExecutor jse = (JavaScriptExecutor) driver;
+        jse.executeScript("arguments[0].scrollIntoView();", candlesPageFourthItem);
+        jse.executeScript("arguments[0].click();",dontMissOutPopup);
+
         candlesPageFourthItem.click();
         ReusableMethods.bekle(3);
         //JavaScriptExecutor jse= new JavaScriptExecutor(,Driver.getDriver(ConfigReader.getProperty("url")));
@@ -381,4 +396,8 @@ public class BooztPage {
         //creditCardSecurityCodeBox.sendKeys("837");
         //paymentWithLoginButton.click();
     }
+
 }
+
+
+
