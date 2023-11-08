@@ -1,10 +1,7 @@
 package pages;
 
 import com.github.javafaker.Faker;
-<<<<<<< HEAD
 
-=======
->>>>>>> main
 import executor.JavaScriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -17,14 +14,10 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-<<<<<<< HEAD
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-
-=======
->>>>>>> main
 public class BooztPage {
     String password;
     String email;
@@ -39,14 +32,10 @@ public class BooztPage {
     //Cookies Accept Method
     @FindBy(id = "onetrust-accept-btn-handler")
     private WebElement acceptCookiesButton;
-<<<<<<< HEAD
 
-=======
->>>>>>> main
     public void cookiesAccept() {
         acceptCookiesButton.click();
     }
-
 
     //Creating Account Method
     @FindBy(xpath = "(//div[@class='icon icon--size-small icon--stroke-width-regular palette-button__icon'])[2]")
@@ -56,13 +45,10 @@ public class BooztPage {
     private WebElement createAccountButton;
 
     public void clickCreateAccountButton(){
-<<<<<<< HEAD
+
     profilIkonButton.click();
     createAccountButton.click();
-=======
-        profilIkonButton.click();
-        createAccountButton.click();
->>>>>>> main
+
     }
 
     //Header Section Method
@@ -174,14 +160,10 @@ public class BooztPage {
     @FindBy(xpath = "//div[@data-id='Element564']")
     public WebElement dontMissPopup;
 
-<<<<<<< HEAD
         public void userLogin(){
-=======
-    public void userLogin(){
 
         email="muleyke.cevik@gmail.com";
         password="12345mM";
->>>>>>> main
 
         profilIkonButton.click();
         //ReusableMethods.bekle(7);
@@ -197,7 +179,6 @@ public class BooztPage {
         loginPageLoginButton.click();
         ReusableMethods.bekle(3);
     }
-
     @FindBy (xpath = "//label[@class='text text--error']")
     public WebElement notLoginErrorMessage;
 
@@ -415,9 +396,8 @@ public class BooztPage {
         //creditCardSecurityCodeBox.sendKeys("837");
         //paymentWithLoginButton.click();
     }
-<<<<<<< HEAD
+
 }
 
-=======
-}
->>>>>>> main
+
+
