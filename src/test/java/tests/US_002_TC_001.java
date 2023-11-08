@@ -6,7 +6,6 @@ import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-
 public class US_002_TC_001 {
 
     BooztPage booztPage = new BooztPage();
@@ -14,8 +13,9 @@ public class US_002_TC_001 {
     //As a user, I should be able to verify that the menus in the header section of the Home page
     // are visible and active.
 
-    @Test (groups = "smoke")
-    public void headerVisibilityandEnableTest(){
+
+    @Test(groups = "smoke")
+    public void headerVisibilityandEnableTest() {
         Driver.getDriver().get(ConfigReader.getProperty("url"));
         ReusableMethods.bekle(2);
         booztPage.cookiesAccept();

@@ -7,8 +7,8 @@ import utilities.Driver;
 import utilities.ReusableMethods;
 
 public class US_004_TC_001 {
-    BooztPage booztPage = new BooztPage();
 
+    BooztPage booztPage = new BooztPage();
 
     //As a user, I should be able to login with valid credentials.
 
@@ -21,3 +21,5 @@ public class US_004_TC_001 {
         Driver.closeDriver();
     }
 }
+
+
