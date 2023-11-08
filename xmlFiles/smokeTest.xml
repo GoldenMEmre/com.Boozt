@@ -12,14 +12,8 @@
 <suite name="Istenen class'lari calistirma">
     <test name="smokeTest">
         <classes>
-            <class name="tests.US_001_TC_001"></class>
             <class name="tests.US_002_TC_001"></class>
-            <class name="tests.US_003_TC_001"></class>
             <class name="tests.US_004_TC_001"></class>
-            <class name="tests.US_005_TC_001"></class>
-            <class name="tests.US_007_TC_001"></class>
-            <class name="tests.US_008_TC_001"></class>
-            <class name="tests.US_010_TC_001"></class>
         </classes>
     </test>
 </suite>

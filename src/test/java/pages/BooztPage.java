@@ -1,18 +1,22 @@
 package pages;
 
 import com.github.javafaker.Faker;
+
+import executor.JavaScriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-import static org.testng.Assert.assertTrue;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 
 public class BooztPage {
 
@@ -29,7 +33,6 @@ public class BooztPage {
     @FindBy(id = "onetrust-accept-btn-handler")
     private WebElement acceptCookiesButton;
 
-
     public void cookiesAccept() {
         acceptCookiesButton.click();
 
@@ -44,8 +47,8 @@ public class BooztPage {
     public void clickCreateAccountButton(){
     profilIkonButton.click();
     createAccountButton.click();
-
     }
+
     //Header Section Method
 
     @FindBy(xpath = "//a[@href='/eu/en/women']")
@@ -155,7 +158,6 @@ public class BooztPage {
     @FindBy(xpath = "//div[@data-id='Element564']")
     public WebElement dontMissPopup;
 
-
         public void userLogin(){
 
             email="muleyke.cevik@gmail.com";
@@ -216,11 +218,20 @@ public class BooztPage {
     @FindBy(xpath = "//div[@class='add-to-cart-feedback-slide-panel__header']")
     public WebElement itemAddedToCartText;
 
+    @FindBy(xpath = "//div[@data-id='Element157']")
+    public WebElement dontMissOutPopup;
+
     public void clickProduct(){
 
+        WebDriver driver = Driver.getDriver();
+
         Actions actions = new Actions(Driver.getDriver());
-        actions.scrollToElement(candlesPageFourthItem);
+        //actions.scrollToElement(candlesPageFourthItem);
         ReusableMethods.bekle(5);
+        JavaScriptExecutor jse = (JavaScriptExecutor) driver;
+        jse.executeScript("arguments[0].scrollIntoView();", candlesPageFourthItem);
+        jse.executeScript("arguments[0].click();",dontMissOutPopup);
+
         candlesPageFourthItem.click();
         ReusableMethods.bekle(3);
         //booztPage.dontMissPopup.click();
@@ -284,7 +295,6 @@ public class BooztPage {
         candlesSearchPageFirstProductAddToSaveAsFavoriteButton.click();
         ReusableMethods.bekle(5);
     }
-
 
     @FindBy(xpath = "(//span[text()='Checkout'])[2]")
     public WebElement searchPageFourthItemCheckoutButton;
@@ -384,6 +394,5 @@ public class BooztPage {
         //creditCardSecurityCodeBox.sendKeys("837");
         //paymentWithLoginButton.click();
     }
-
 }
 

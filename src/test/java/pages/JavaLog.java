@@ -5,9 +5,9 @@ import org.apache.log4j.xml.DOMConfigurator;
 
 public class JavaLog {
 
-    static Logger logger = Logger.getLogger(JavaLog.class);
+    public static Logger logger = Logger.getLogger(JavaLog.class);
     public JavaLog(){
-        DOMConfigurator.configure("log4j.xml");
+        DOMConfigurator.configure("xmlFiles.log4j.xml");
     }
     public void info(String message){
         logger.info(message);

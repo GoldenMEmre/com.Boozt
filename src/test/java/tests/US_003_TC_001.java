@@ -23,10 +23,7 @@ public class US_003_TC_001 {
         booztPage.createAnAccount();
         Assert.assertEquals(myBooztText,booztPage.myAccountMyBooztText.getText());
         Driver.closeDriver();
-
     }
-
-
 }
 
 
