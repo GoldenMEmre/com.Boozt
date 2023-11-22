@@ -31,8 +31,11 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions chromeOptions= new ChromeOptions();
                     chromeOptions.setBrowserVersion("117");
+                    //chromeOptions.addArguments("--headless=new");
                     driver = new ChromeDriver();
+                    //driver = new ChromeDriver(chromeOptions);
                     break;
+
                 case "firefox" :
                     WebDriverManager.firefoxdriver().setup();
                     driver= new FirefoxDriver();
