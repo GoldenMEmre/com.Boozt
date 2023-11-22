@@ -1,5 +1,8 @@
 package tests;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import logger.Log;
 import org.testng.annotations.Test;
 import pages.BooztPage;
@@ -20,13 +23,15 @@ public class US_001_TC_001 {
     //Tarayıcıyı aç ve "https://www.boozt.com/" adresine git.
 
     @Test(groups = "smoke")
+    @Description("Web Page Access test")
+    @Severity(SeverityLevel.CRITICAL)
     public void WebPageAccessTest() {
-        log.info("N11 UI Testi basladi");
+        log.info("Boozt UI Testi basladi");
         Driver.getDriver().get(ConfigReader.getProperty("url"));
 
 
         booztPage.cookiesAccept();
-        log.error("Cookies kabul edilemedi");
+        log.info("Cookies kabul edildi");
 
         Driver.closeDriver();
     }

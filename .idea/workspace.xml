@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7e3af61d-0448-43ee-a086-43221179f3f9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logfile.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BooztPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/JavaLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testlogger/TestResultLogger.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_002_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xmlFiles/log4j.xml" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +54,11 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hasba\IdeaProjects\com.Boozt\src\test\java" />
@@ -74,8 +70,8 @@
       <recent name="C:\Users\hasba\IdeaProjects\com.Boozt\xmlFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_002_TC_001.headerVisibilityandEnableTest">
-    <configuration name="US_001_TC_001 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.US_001_TC_001.WebPageAccessTest">
+    <configuration name="HeadlessChrome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Boozt" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +80,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_001_TC_001" />
+      <option name="MAIN_CLASS_NAME" value="tests.HeadlessChrome" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeadlessChrome.testHeadlessSetup" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Boozt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HeadlessChrome" />
+      <option name="METHOD_NAME" value="testHeadlessSetup" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,28 +159,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_006_TC_001.searchBoxTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_002_TC_001.headerVisibilityandEnableTest" />
-        <item itemvalue="TestNG.US_002_TC_001" />
         <item itemvalue="TestNG.US_001_TC_001.WebPageAccessTest" />
-        <item itemvalue="TestNG.US_001_TC_001 (1)" />
-        <item itemvalue="TestNG.US_006_TC_001.searchBoxTest" />
+        <item itemvalue="TestNG.US_002_TC_001" />
+        <item itemvalue="TestNG.HeadlessChrome.testHeadlessSetup" />
+        <item itemvalue="TestNG.HeadlessChrome" />
+        <item itemvalue="TestNG.US_002_TC_001.headerVisibilityandEnableTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="89e00c24-b659-4de7-9575-4ee7c16d4c48" name="Changes" comment="" />
+      <changelist id="7e3af61d-0448-43ee-a086-43221179f3f9" name="Changes" comment="" />
       <created>1696012146050</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
