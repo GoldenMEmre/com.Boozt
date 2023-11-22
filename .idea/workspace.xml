@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e3af61d-0448-43ee-a086-43221179f3f9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logfile.log" beforeDir="false" afterPath="$PROJECT_DIR$/logfile.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/US_001_TC_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
-    </list>
+    <list default="true" id="7e3af61d-0448-43ee-a086-43221179f3f9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +64,7 @@
       <recent name="C:\Users\hasba\IdeaProjects\com.Boozt\xmlFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.US_001_TC_001.WebPageAccessTest">
+  <component name="RunManager" selected="TestNG.US_001_TC_001">
     <configuration name="HeadlessChrome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="com.Boozt" />
       <extension name="coverage">
@@ -100,6 +94,23 @@
       <option name="MAIN_CLASS_NAME" value="tests.HeadlessChrome" />
       <option name="METHOD_NAME" value="testHeadlessSetup" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_001_TC_001" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.Boozt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.US_001_TC_001" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,31 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="US_002_TC_001.headerVisibilityandEnableTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="com.Boozt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.US_002_TC_001" />
-      <option name="METHOD_NAME" value="headerVisibilityandEnableTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.US_001_TC_001" />
         <item itemvalue="TestNG.US_001_TC_001.WebPageAccessTest" />
         <item itemvalue="TestNG.US_002_TC_001" />
         <item itemvalue="TestNG.HeadlessChrome.testHeadlessSetup" />
         <item itemvalue="TestNG.HeadlessChrome" />
-        <item itemvalue="TestNG.US_002_TC_001.headerVisibilityandEnableTest" />
       </list>
     </recent_temporary>
   </component>
